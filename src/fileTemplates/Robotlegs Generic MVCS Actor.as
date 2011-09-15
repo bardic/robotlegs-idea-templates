@@ -4,8 +4,7 @@ import org.robotlegs.mvcs.Actor;
 
 public class ${NAME} extends Actor{
     
-    public function ${NAME}()
-    {
+    public function ${NAME}(){
         
     }
 }

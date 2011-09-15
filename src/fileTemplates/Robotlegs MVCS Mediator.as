@@ -7,11 +7,9 @@ import org.robotlegs.mvcs.Mediator;
 public class ${NAME} extends Mediator{
     
     #if (${View_class} != "")
-    [Inject]
-    public var view:${View_class};#end
+    [Inject]public var view:${View_class};#end
     
-    override public function onRegister():void
-    {
+    override public function onRegister():void{
         
     } 
 }
